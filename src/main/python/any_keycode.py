@@ -7,7 +7,7 @@ from keycodes.keycodes import KEYCODES_SPECIAL, KEYCODES_BASIC, KEYCODES_SHIFTED
     KEYCODES_MEDIA, KEYCODES_USER, Keycode
 
 r = Keycode.resolve
-
+   
 
 def LCTL(kc): return (r("QK_LCTL") | (kc))
 def LSFT(kc): return (r("QK_LSFT") | (kc))
